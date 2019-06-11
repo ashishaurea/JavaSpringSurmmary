@@ -23,6 +23,7 @@ public class OperatorClass {
 		System.out.println("policyList.size " + operatorClass.getPolicyList().size());
 		for(int i=0;i<operatorClass.getPolicyList().size();i++){
 			operatorClass.getPolicyList().get(i).excute("parameter");
+			//test
 		}
 	}
 }
